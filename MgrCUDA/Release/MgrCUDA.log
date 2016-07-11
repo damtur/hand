@@ -1,0 +1,277 @@
+﻿Build started 10/22/2012 11:16:45 AM.
+     1>Project "G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\MgrCUDA.vcxproj" on node 2 (rebuild target(s)).
+     1>CudaClean:
+         cmd.exe /C "C:\Users\damtur\AppData\Local\Temp\75272bab4a854b62a352923cb69b836d.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin" -I"C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.0\C\common\inc" -I"..\Lib\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include"    --keep-dir "Release" -maxrregcount=0  --machine 32 --compile      -Xcompiler "/EHsc /nologo /Od /Zi  /MD " -o "Release\GpuFunctions.cu.obj" "G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\GpuFunctions.cu" -clean
+         
+         G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin" -I"C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.0\C\common\inc" -I"..\Lib\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include"    --keep-dir "Release" -maxrregcount=0  --machine 32 --compile      -Xcompiler "/EHsc /nologo /Od /Zi  /MD " -o "Release\GpuFunctions.cu.obj" "G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\GpuFunctions.cu" -clean 
+       CudaClean:
+         cmd.exe /C "C:\Users\damtur\AppData\Local\Temp\17c4247f454e4f4ebd540caec7d21d0b.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin" -I"C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.0\C\common\inc" -I"..\Lib\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include"    --keep-dir "Release" -maxrregcount=0  --machine 32 --compile      -Xcompiler "/EHsc /nologo /Od /Zi  /MD " -o "Release\GpuSkinDetector.cu.obj" "G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\GpuSkinDetector.cu" -clean
+         
+         G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin" -I"C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.0\C\common\inc" -I"..\Lib\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include"    --keep-dir "Release" -maxrregcount=0  --machine 32 --compile      -Xcompiler "/EHsc /nologo /Od /Zi  /MD " -o "Release\GpuSkinDetector.cu.obj" "G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\GpuSkinDetector.cu" -clean 
+       InitializeBuildStatus:
+         Touching "Release\MgrCUDA.unsuccessfulbuild".
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /I"C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.0\C\common\inc" /I..\Lib\include /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include" /I. /FIcuda_runtime.h /c "G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\GpuFunctions.cu" 
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /I"C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.0\C\common\inc" /I..\Lib\include /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include" /I. /FIcuda_runtime.h /c "G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\GpuSkinDetector.cu" 
+       AddCudaCompilePropsDeps:
+         Found "CudaToolkitCustomDir".
+         Found "AdditionalDeps".
+         Found "CompileOut".
+         Found "Include".
+         Found "Keep".
+         Found "KeepDir".
+         Found "NvccCompilation".
+         Found "NvccPath".
+         Found "RequiredIncludes".
+         Found "TargetMachinePlatform".
+         Found "CInterleavedPTX".
+         Found "CodeGeneration".
+         Found "GPUDebugInfo".
+         Found "MaxRegCount".
+         Found "PtxAsOptionV".
+         Found "Defines".
+         Found "Emulation".
+         Found "HostDebugInfo".
+         Found "FastMath".
+         Found "Optimization".
+         Found "Runtime".
+         Found "RuntimeChecks".
+         Found "TypeInfo".
+         Found "Warning".
+         Found "AdditionalOptions".
+         Found "CommandLineTemplate".
+       AddCudaCompilePropsDeps:
+         Found "CudaToolkitCustomDir".
+         Found "AdditionalDeps".
+         Found "CompileOut".
+         Found "Include".
+         Found "Keep".
+         Found "KeepDir".
+         Found "NvccCompilation".
+         Found "NvccPath".
+         Found "RequiredIncludes".
+         Found "TargetMachinePlatform".
+         Found "CInterleavedPTX".
+         Found "CodeGeneration".
+         Found "GPUDebugInfo".
+         Found "MaxRegCount".
+         Found "PtxAsOptionV".
+         Found "Defines".
+         Found "Emulation".
+         Found "HostDebugInfo".
+         Found "FastMath".
+         Found "Optimization".
+         Found "Runtime".
+         Found "RuntimeChecks".
+         Found "TypeInfo".
+         Found "Warning".
+         Found "AdditionalOptions".
+         Found "CommandLineTemplate".
+       CudaBuild:
+         Compiling CUDA source file GpuFunctions.cu...
+         cmd.exe /C "C:\Users\damtur\AppData\Local\Temp\dc178b43ca6f41d78fd6c1835253363e.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2008 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin" -I"C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.0\C\common\inc" -I"..\Lib\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include"    --keep-dir "Release" -maxrregcount=0  --machine 32 --compile      -Xcompiler "/EHsc /nologo /Od /Zi  /MD " -o "Release\GpuFunctions.cu.obj" "G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\GpuFunctions.cu"
+         
+         G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2008 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin" -I"C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.0\C\common\inc" -I"..\Lib\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include"    --keep-dir "Release" -maxrregcount=0  --machine 32 --compile      -Xcompiler "/EHsc /nologo /Od /Zi  /MD " -o "Release\GpuFunctions.cu.obj" "G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\GpuFunctions.cu" 
+         GpuFunctions.cu
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(193): warning : dllexport/dllimport conflict with "GpuFunctions::binaryErrode"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(26): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(213): warning : dllexport/dllimport conflict with "GpuFunctions::grayscaleErrode"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(27): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(227): warning : dllexport/dllimport conflict with "GpuFunctions::binaryDilate"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(28): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(249): warning : dllexport/dllimport conflict with "GpuFunctions::grayscaleDilate"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(29): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(263): warning : dllexport/dllimport conflict with "GpuFunctions::binaryOpen"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(31): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(287): warning : dllexport/dllimport conflict with "GpuFunctions::grayscaleOpen"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(32): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(302): warning : dllexport/dllimport conflict with "GpuFunctions::binaryClose"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(33): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(326): warning : dllexport/dllimport conflict with "GpuFunctions::grayscaleClose"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(34): here; dllexport assumed
+         
+         tmpxft_000026d0_00000000-0_GpuFunctions.cudafe1.gpu
+         tmpxft_000026d0_00000000-5_GpuFunctions.cudafe2.gpu
+         GpuFunctions.cu
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(193): warning : dllexport/dllimport conflict with "GpuFunctions::binaryErrode"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(26): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(213): warning : dllexport/dllimport conflict with "GpuFunctions::grayscaleErrode"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(27): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(227): warning : dllexport/dllimport conflict with "GpuFunctions::binaryDilate"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(28): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(249): warning : dllexport/dllimport conflict with "GpuFunctions::grayscaleDilate"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(29): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(263): warning : dllexport/dllimport conflict with "GpuFunctions::binaryOpen"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(31): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(287): warning : dllexport/dllimport conflict with "GpuFunctions::grayscaleOpen"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(32): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(302): warning : dllexport/dllimport conflict with "GpuFunctions::binaryClose"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(33): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(326): warning : dllexport/dllimport conflict with "GpuFunctions::grayscaleClose"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(34): here; dllexport assumed
+         
+         tmpxft_000026d0_00000000-0_GpuFunctions.cudafe1.cpp
+         tmpxft_000026d0_00000000-11_GpuFunctions.ii
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(193): warning C4273: 'GpuFunctions::binaryErrode' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(26) : see previous definition of 'binaryErrode'
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(213): warning C4273: 'GpuFunctions::grayscaleErrode' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(27) : see previous definition of 'grayscaleErrode'
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(227): warning C4273: 'GpuFunctions::binaryDilate' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(28) : see previous definition of 'binaryDilate'
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(249): warning C4273: 'GpuFunctions::grayscaleDilate' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(29) : see previous definition of 'grayscaleDilate'
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(263): warning C4273: 'GpuFunctions::binaryOpen' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(31) : see previous definition of 'binaryOpen'
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(287): warning C4273: 'GpuFunctions::grayscaleOpen' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(32) : see previous definition of 'grayscaleOpen'
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(302): warning C4273: 'GpuFunctions::binaryClose' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(33) : see previous definition of 'binaryClose'
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuFunctions.cu(326): warning C4273: 'GpuFunctions::grayscaleClose' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuFunctions.h(34) : see previous definition of 'grayscaleClose'
+       CudaBuild:
+         Compiling CUDA source file GpuSkinDetector.cu...
+         cmd.exe /C "C:\Users\damtur\AppData\Local\Temp\2811ff2f363444a0ab3a0105e67b6029.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2008 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin" -I"C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.0\C\common\inc" -I"..\Lib\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include"    --keep-dir "Release" -maxrregcount=0  --machine 32 --compile      -Xcompiler "/EHsc /nologo /Od /Zi  /MD " -o "Release\GpuSkinDetector.cu.obj" "G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\GpuSkinDetector.cu"
+         
+         G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2008 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin" -I"C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.0\C\common\inc" -I"..\Lib\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include"    --keep-dir "Release" -maxrregcount=0  --machine 32 --compile      -Xcompiler "/EHsc /nologo /Od /Zi  /MD " -o "Release\GpuSkinDetector.cu.obj" "G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\GpuSkinDetector.cu" 
+         GpuSkinDetector.cu
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(72): warning : expression has no effect
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(73): warning : expression has no effect
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(422): warning : dllexport/dllimport conflict with "GpuSkinDetector::initialFilter"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(59): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(436): warning : dllexport/dllimport conflict with "GpuSkinDetector::detectSkin"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(62): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(494): warning : dllexport/dllimport conflict with "GpuSkinDetector::yCbCrFunction"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(50): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(498): warning : dllexport/dllimport conflict with "GpuSkinDetector::emptyFunction"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(51): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(502): warning : dllexport/dllimport conflict with "GpuSkinDetector::gausianFunction"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(52): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(506): warning : dllexport/dllimport conflict with "GpuSkinDetector::hsvFunction"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(53): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(510): warning : dllexport/dllimport conflict with "GpuSkinDetector::simpleFunction"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(54): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(514): warning : dllexport/dllimport conflict with "GpuSkinDetector::simpleFunction2"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(55): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(518): warning : dllexport/dllimport conflict with "GpuSkinDetector::simpleFunction3"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(56): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(522): warning : dllexport/dllimport conflict with "GpuSkinDetector::simpleFunction4"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(57): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(526): warning : dllexport/dllimport conflict with "GpuSkinDetector::simpleFunction5"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(58): here; dllexport assumed
+         
+         tmpxft_00002924_00000000-0_GpuSkinDetector.cudafe1.gpu
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(72): warning : expression has no effect
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(73): warning : expression has no effect
+         
+         tmpxft_00002924_00000000-5_GpuSkinDetector.cudafe2.gpu
+         GpuSkinDetector.cu
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(72): warning : expression has no effect
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(73): warning : expression has no effect
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(422): warning : dllexport/dllimport conflict with "GpuSkinDetector::initialFilter"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(59): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(436): warning : dllexport/dllimport conflict with "GpuSkinDetector::detectSkin"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(62): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(494): warning : dllexport/dllimport conflict with "GpuSkinDetector::yCbCrFunction"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(50): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(498): warning : dllexport/dllimport conflict with "GpuSkinDetector::emptyFunction"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(51): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(502): warning : dllexport/dllimport conflict with "GpuSkinDetector::gausianFunction"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(52): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(506): warning : dllexport/dllimport conflict with "GpuSkinDetector::hsvFunction"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(53): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(510): warning : dllexport/dllimport conflict with "GpuSkinDetector::simpleFunction"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(54): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(514): warning : dllexport/dllimport conflict with "GpuSkinDetector::simpleFunction2"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(55): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(518): warning : dllexport/dllimport conflict with "GpuSkinDetector::simpleFunction3"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(56): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(522): warning : dllexport/dllimport conflict with "GpuSkinDetector::simpleFunction4"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(57): here; dllexport assumed
+         
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(526): warning : dllexport/dllimport conflict with "GpuSkinDetector::simpleFunction5"
+         g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(58): here; dllexport assumed
+         
+     1>ptxas C : /Users/damtur/AppData/Local/Temp/tmpxft_00002924_00000000-1_GpuSkinDetector.ptx, line 252; warning : Double is not supported. Demoting to float
+         tmpxft_00002924_00000000-0_GpuSkinDetector.cudafe1.cpp
+         tmpxft_00002924_00000000-11_GpuSkinDetector.ii
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(422): warning C4273: 'GpuSkinDetector::initialFilter' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(59) : see previous definition of 'initialFilter'
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(436): warning C4273: 'GpuSkinDetector::detectSkin' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(62) : see previous definition of 'detectSkin'
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(494): warning C4273: 'GpuSkinDetector::yCbCrFunction' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(50) : see previous definition of 'yCbCrFunction'
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(498): warning C4273: 'GpuSkinDetector::emptyFunction' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(51) : see previous definition of 'emptyFunction'
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(502): warning C4273: 'GpuSkinDetector::gausianFunction' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(52) : see previous definition of 'gausianFunction'
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(506): warning C4273: 'GpuSkinDetector::hsvFunction' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(53) : see previous definition of 'hsvFunction'
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(510): warning C4273: 'GpuSkinDetector::simpleFunction' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(54) : see previous definition of 'simpleFunction'
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(514): warning C4273: 'GpuSkinDetector::simpleFunction2' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(55) : see previous definition of 'simpleFunction2'
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(518): warning C4273: 'GpuSkinDetector::simpleFunction3' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(56) : see previous definition of 'simpleFunction3'
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(522): warning C4273: 'GpuSkinDetector::simpleFunction4' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(57) : see previous definition of 'simpleFunction4'
+     1>G:/Documents/Dropbox/Magisterka/Magisterka/Kod zrodlowy/MgrCUDA/GpuSkinDetector.cu(526): warning C4273: 'GpuSkinDetector::simpleFunction5' : inconsistent dll linkage
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgrcuda\GpuSkinDetector.h(58) : see previous definition of 'simpleFunction5'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\Release\MgrCUDA.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\\lib\Win32" /LIBPATH:..\Lib\lib /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\lib\Win32" opencv_gpu233.lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\MgrCUDA.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\Release\MgrCUDA.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\Release\MgrCUDA.lib" /MACHINE:X86 /DLL Release\GpuFunctions.cu.obj
+         Release\GpuSkinDetector.cu.obj
+            Creating library G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\Release\MgrCUDA.lib and object G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\Release\MgrCUDA.exp
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         MgrCUDA.vcxproj -> G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\Release\MgrCUDA.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v6.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\Release\MgrCUDA.dll;#2" /manifest Release\MgrCUDA.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\MgrCUDA.unsuccessfulbuild".
+         Touching "Release\MgrCUDA.lastbuildstate".
+     1>Done Building Project "G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\MgrCUDA.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.92

@@ -1,0 +1,71 @@
+﻿Build started 10/22/2012 11:16:50 AM.
+     1>Project "G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\Mgr\Inz.vcxproj" on node 3 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Mgr.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\\Include" /I..\MgrCUDA\ /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include" /Zi /nologo /W4 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\Mgr.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgr\Utils.h(199): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgr\Utils.h(217): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgr\Utils.h(237): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgr\Utils.h(260): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgr\GestureFitter.h(90): warning C4512: 'HandGR::GestureFitter' : assignment operator could not be generated
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgr\GestureFitter.h(7) : see declaration of 'HandGR::GestureFitter'
+     1>g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgr\HandFinder.h(69): warning C4512: 'HandGR::HandFinder' : assignment operator could not be generated
+                 g:\documents\dropbox\magisterka\magisterka\kod zrodlowy\mgr\HandFinder.h(7) : see declaration of 'HandGR::HandFinder'
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\\Include" /I..\MgrCUDA\ /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include" /Zi /nologo /W4 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Mgr.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Calibration.cpp EmptyFunction.cpp FaceDetector.cpp GausianSkinDetectionFunction.cpp GestureFitter.cpp HandFinder.cpp HsvFunction.cpp Mgr.cpp PositionDetector.cpp OutputServer.cpp SimpleSkinDetectionFunctions.cpp SkinDetector.cpp SkinDetectionFunction.cpp Teacher.cpp testApp.cpp Utils.cpp YCbCrFunction.cpp
+         Calibration.cpp
+         EmptyFunction.cpp
+         FaceDetector.cpp
+         GausianSkinDetectionFunction.cpp
+         GestureFitter.cpp
+         HandFinder.cpp
+         HsvFunction.cpp
+         Mgr.cpp
+         PositionDetector.cpp
+     1>PositionDetector.cpp(18): warning C4100: 'calibration' : unreferenced formal parameter
+     1>PositionDetector.cpp(80): warning C4100: 'isCalibration' : unreferenced formal parameter
+     1>PositionDetector.cpp(102): warning C4100: 'grayFrame' : unreferenced formal parameter
+     1>PositionDetector.cpp(144): warning C4100: 'calibration' : unreferenced formal parameter
+         OutputServer.cpp
+     1>OutputServer.cpp(75): warning C4100: 'pParams' : unreferenced formal parameter
+         SimpleSkinDetectionFunctions.cpp
+         SkinDetector.cpp
+     1>SkinDetector.cpp(80): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         SkinDetectionFunction.cpp
+         Teacher.cpp
+         testApp.cpp
+         Utils.cpp
+         YCbCrFunction.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\Release\Mgr.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Lib\lib /LIBPATH:..\MgrCUDA\Release /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\\lib\Win32" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\lib\Win32" MgrCUDA.lib opencv_core233.lib opencv_highgui233.lib opencv_ml233.lib opencv_video233.lib opencv_imgproc233.lib opencv_features2d233.lib opencv_objdetect233.lib opencv_calib3d233.lib opencv_flann233.lib opencv_gpu233.lib opencv_contrib233.lib Winmm.lib cudart.lib WS2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Mgr.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\Release\Mgr.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\Release\Mgr.lib" /MACHINE:X86 Release\Calibration.obj
+         Release\EmptyFunction.obj
+         Release\FaceDetector.obj
+         Release\GausianSkinDetectionFunction.obj
+         Release\GestureFitter.obj
+         Release\HandFinder.obj
+         Release\HsvFunction.obj
+         Release\Mgr.obj
+         Release\PositionDetector.obj
+         Release\OutputServer.obj
+         Release\SimpleSkinDetectionFunctions.obj
+         Release\SkinDetector.obj
+         Release\stdafx.obj
+         Release\SkinDetectionFunction.obj
+         Release\Teacher.obj
+         Release\testApp.obj
+         Release\Utils.obj
+         Release\YCbCrFunction.obj
+         Generating code
+         Finished generating code
+         Inz.vcxproj -> G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\Release\Mgr.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\MgrCUDA\Release\Mgr.exe;#1" /manifest Release\Mgr.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Mgr.unsuccessfulbuild".
+         Touching "Release\Mgr.lastbuildstate".
+     1>Done Building Project "G:\Documents\Dropbox\Magisterka\Magisterka\Kod zrodlowy\Mgr\Inz.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.57
